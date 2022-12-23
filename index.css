@@ -1,0 +1,33 @@
+/* p {
+    display: flex;
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    font-family: verdana;
+    font-weight: bolder;
+    font-size: 160%;
+} */
+
+body {
+    background-color: #FFB741; 
+}
+
+.container {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    line-height: 90vh;
+    gap: 20px;
+}
+
+.container img {
+    width: 4%;
+    height: 4%;
+    float: left;
+}
+
+.container p { 
+    font-family: verdana;
+    font-size: 150%;
+    font-weight: bold;
+}
